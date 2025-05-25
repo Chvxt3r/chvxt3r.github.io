@@ -13,6 +13,11 @@
 - type: rss
   icon: "fas fa-rss"
   noblank: true
+
+- type: hackthebox
+  icon: "fa-solid fa-cube"
+  url: 'https://app.hackthebox.com/profile/2057332'
+
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon

@@ -44,6 +44,7 @@ social:
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
+    - - https://app.hackthebox.com/profile/2057332
 
 # Site Verification Settings
 webmaster_verifications:
