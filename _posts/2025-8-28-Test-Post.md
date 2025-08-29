@@ -1,0 +1,10 @@
+---
+layout: post
+title: Test Post 
+---
+
+# This is a test post.
+
+```bash
+testing code encapsulation
+```
