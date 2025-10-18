@@ -284,7 +284,7 @@ Let's find out!
 ```bash
 nxc smb 10.129.238.144 -u 'alfred' -p 'W[...SNIP...]' --shares
 SMB         10.129.238.144  445    CHATTERBOX       [*] Windows 7 / Server 2008 R2 Build 7601 x32 (name:CHATTERBOX) (domain:Chatterbox) (signing:False) (SMBv1:True) 
-SMB         10.129.238.144  445    CHATTERBOX       [+] Chatterbox\alfred:Welcome1! 
+SMB         10.129.238.144  445    CHATTERBOX       [+] Chatterbox\alfred:W[...SNIP...]
 SMB         10.129.238.144  445    CHATTERBOX       [*] Enumerated shares
 SMB         10.129.238.144  445    CHATTERBOX       Share           Permissions     Remark
 SMB         10.129.238.144  445    CHATTERBOX       -----           -----------     ------
@@ -296,7 +296,7 @@ Looks like that's Alfreds password, but it never hurts to check and see if it wo
 ```bash
 nxc smb 10.129.238.144 -u 'Administrator' -p 'W[...SNIP...]' --shares
 SMB         10.129.238.144  445    CHATTERBOX       [*] Windows 7 / Server 2008 R2 Build 7601 x32 (name:CHATTERBOX) (domain:Chatterbox) (signing:False) (SMBv1:True) 
-SMB         10.129.238.144  445    CHATTERBOX       [+] Chatterbox\Administrator:Welcome1! (Pwn3d!)
+SMB         10.129.238.144  445    CHATTERBOX       [+] Chatterbox\Administrator:W[...SNIP...] (Pwn3d!)
 SMB         10.129.238.144  445    CHATTERBOX       [*] Enumerated shares
 SMB         10.129.238.144  445    CHATTERBOX       Share           Permissions     Remark
 SMB         10.129.238.144  445    CHATTERBOX       -----           -----------     ------
