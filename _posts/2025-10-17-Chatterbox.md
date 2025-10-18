@@ -6,7 +6,7 @@ categories: [hackthebox]
 render_with_liquid: false
 tags: [HTB, Easy, achat, netexec, nmap, exploitdb, msfvenom, python] 
 image:
-  /images/Chatterbox/chatterbox_header.jpg
+  /images/Chatterbox/chatterbox_icon.jpg
 ---
 ![ChatterBox Header](/images/Chatterbox/chatterbox_header.jpg)
 
