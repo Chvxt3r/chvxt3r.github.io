@@ -59,7 +59,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 150.90 seconds
 ```
 ## Foothold
-* So... looking over our nmap scan, we a couple of things that interest us, first is 445 (SMB) and Achat? I've never heard of that, but let's check smb and see if it allows null or guest sessions.
+* So... looking over our nmap scan, we see a couple of things that interest us, first is 445 (SMB) and Achat? I've never heard of that, but let's check smb and see if it allows null or guest sessions.
 ```bash
 ➜  chatterbox nxc smb 10.129.153.76 -u '' -p '' --shares                                                       
 SMB         10.129.153.76   445    CHATTERBOX       [*] Windows 7 / Server 2008 R2 Build 7601 x32 (name:CHATTERBOX) (domain:Chatterbox) (signing:False) (SMBv1:True) 
