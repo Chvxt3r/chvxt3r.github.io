@@ -2,7 +2,7 @@
 ---
 tags: HTB, Easy, achat, netexec, nmap, exploitdb, msfvenom, python 
 ---
-![ChatterBox Header](/images/chatterbox/chatterbox_header.jpg)
+![ChatterBox Header](/images/Chatterbox/chatterbox_header.jpg)
 
 # Chatterbox by Hack The Box
 
@@ -86,9 +86,9 @@ searchsploit tells us we have some exploits for that, including one in Metasploi
 
 Immediately 3 things stand out:  
 1. There's an msfvenom command in here for generating a payload, but it looks like it's just a POC designed to spawn the calculator.
-![screenshot](../images/chatterbox/36025_msfvenom.jpg)
+![screenshot](../images/Chatterbox/36025_msfvenom.jpg)
 2. This script hasn't been parameterized so we'll have to edit the IP address to fit our case.
-![screenshot](../images/chatterbox/36025_socket.jpg)
+![screenshot](../images/Chatterbox/36025_socket.jpg)
 3. There's a bunch of shell code in the middle of the script. I'm betting this is the payload.
 ```python
 buf =  b""                                                                                                                                                                               
