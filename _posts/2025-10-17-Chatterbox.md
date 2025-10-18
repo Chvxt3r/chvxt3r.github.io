@@ -1,4 +1,3 @@
-
 ---
 title: Chatterbox
 author: Chvxt3r
@@ -6,8 +5,10 @@ date: 2025-10-17 14:10:00 +0800
 categories: [writeups]
 render_with_liquid: false
 tags: HTB, Easy, achat, netexec, nmap, exploitdb, msfvenom, python 
+image:
+  ![ChatterBox Header](/images/Chatterbox/chatterbox_header.jpg)
 ---
-![ChatterBox Header](/images/Chatterbox/chatterbox_header.jpg)
+
 
 # Chatterbox by Hack The Box
 
