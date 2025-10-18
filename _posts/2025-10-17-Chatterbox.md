@@ -8,9 +8,9 @@ tags: [HTB, Easy, achat, netexec, nmap, exploitdb, msfvenom, python]
 image:
   /images/Chatterbox/chatterbox_icon.jpg
 ---
-![ChatterBox Header](/images/Chatterbox/chatterbox_header.jpg)
 
 # Chatterbox by Hack The Box
+
 
 ## Overview
 ***Chatterbox is a medium difficulty machine that features an exploit in in a chat system to gain initial access, and from there we can discover credentials that will leed us to root. I don't know if this was a medium box back in the day it was released, but it's pretty cake now.**
