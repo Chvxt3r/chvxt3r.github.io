@@ -10,7 +10,7 @@ tags: HTB, Easy, achat, netexec, nmap, exploitdb, msfvenom, python
 ***Chatterbox is a medium difficulty machine that features an exploit in in a chat system to gain initial access, and from there we can discover credentials that will leed us to root. I don't know if this was a medium box back in the day it was released, but it's pretty cake now.**
 
 ## Enumeration
-* We start with our normal nmap scan, looking for anything interesting
+* We start with our normal nmap scan, looking for anything interesting  
 ```bash
 sudo nmap -sCV -T4 -p- 10.129.153.76 --open -oA scans/nmap_initial
 Starting Nmap 7.95 ( https://nmap.org ) at 2025-10-17 22:01 PDT
