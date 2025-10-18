@@ -11,6 +11,7 @@ tags: HTB, Easy, achat, netexec, nmap, exploitdb, msfvenom, python
 
 ## Enumeration
 * We start with our normal nmap scan, looking for anything interesting  
+
 ```bash
 sudo nmap -sCV -T4 -p- 10.129.153.76 --open -oA scans/nmap_initial
 Starting Nmap 7.95 ( https://nmap.org ) at 2025-10-17 22:01 PDT
