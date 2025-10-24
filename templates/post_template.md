@@ -1,8 +1,10 @@
 ---
-title: Hack The Box - Bastion
-date: 2019-09-07 23:11:00 +0800
+title: Chatterbox
+author: Chvxt3r
+date: 2025-10-17 14:10:00 +0800
 categories: [hackthebox]
-tags: [smb, mremoteng, windows, ssh]
+render_with_liquid: false
+tags: [HTB, Easy, achat, netexec, nmap, exploitdb, msfvenom, python]
 image:
-    path: /assets/images/bastion.png
+  /images/Chatterbox/chatterbox_icon.jpg
 ---
