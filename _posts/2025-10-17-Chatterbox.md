@@ -5,8 +5,8 @@ date: 2025-10-17 14:10:00 +0800
 categories: [hackthebox]
 render_with_liquid: false
 tags: [HTB, Easy, achat, netexec, nmap, exploitdb, msfvenom, python] 
-image:
-  /images/Chatterbox/chatterbox_icon.jpg
+image:https://htb-mp-prod-public-storage.s3.eu-central-1….com/avatars/0d153f144af7b3b7213787c7e42df7d2.png
+  
 ---
 
 # Chatterbox by Hack The Box
