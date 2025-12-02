@@ -4,7 +4,7 @@ date: 2025-02-15 16:00:00 +/-0000
 categories: [Training,Certifications,Hacking,Pentesting]
 tags: [tcm security,pnpt,certifications,exams,cybersec,training]     # TAG names should always be lowercase
 description: In Cicada we attack a Domain Controller starting with abusing SMB null authentication.
-image: "https://certifications.tcm-sec.com/wp-content/uploads/2024/08/PNPT.webp"
+image: "https://images.credential.net/badge/tiny/gcrm0c2p_1764645584313_badge.png"
 ---
 
 ## My Motivations
@@ -34,10 +34,20 @@ in security, I decided to specialize in security. I'm expert level at networking
   Overall, I found all of the courses to be fairly comprehensive in teams of teaching you what you need for real world pentest, and for the exam.
 
 ## The Exam
-  On to the exam. In all fairness, I had to take the exam twice. I failed the first exam because I drastically reduced my time through my own errors. I couldn't seem to get a command right, and then I accidentally deleted all my notes while trying to back them up. I made the 2nd attempt almost immediately after the first attempt, and was able to pass. I feel like if you spent 4 hours a day for a month going through the courses, practicing on the labs, and studying, you would be able knock this out on the first try.
+  On to the exam. In all fairness, I had to take the exam twice. I failed the first exam because I drastically reduced my time through my own unforced errors. I couldn't seem to get a command right, and then I accidentally deleted all my notes while trying to back them up. I made the 2nd attempt almost immediately after the first attempt, and was able to pass. I feel like if you spent 4 hours a day for a month going through the courses, practicing on the labs, and studying, you would be able knock this out on the first try.
 
 **Exam Format**
-  The exam gives you 7 days to find a way in and completely compromise an active directory domain. You have 5 days with the lab environment and then another 2 days to write your report. II feel like you should be able to do the report as you go along. I used sysreptor to document and create the report as I went along. I find this method makes it very easy to gather the documentation necessary for the report. It also provides a brief break from trying to figure stuff out. You can find my report templates [here]().
+  The exam gives you 7 days to find a way in and completely compromise an active directory domain. You have 5 days with the lab environment and then another 2 days to write your report. I feel like you should be able to do the report as you go along. I used sysreptor to document and create the report as I went along. I find this method makes it very easy to gather the documentation necessary for the report. It also provides a brief break from trying to figure stuff out. You can find my report templates [here](). Basically every time I discovered a finding, I'd document the finding in sysreptor with the associated evidence, so by the time the domain was compromised I already had all of my findings documented, and the walkthrough was mostly complete.
 
 ## The Debrief
+  After you compromise the domain and submit your report, you must complete a 15 minute debrief with a member of the TCM Staff. You can prepare a power point if you want, or just use the report. The staff member will have a copy of your report in front of them, so they can follow along. I did not prepare a powerpoint or presentation, and just went through my steps to compromise, calling out findings and remediates as I went along. You will need a webcam for this portion and to provide ID for identity verification.
 
+## TTP's
+  - When you think you've enumerated enough, enumerate more.
+  - Know the limitations of the tools and commands you're running.
+  - All the info you need is in the course materials. 
+  - Take frequent breaks to allow for fresh thinking and preventing "locking in" to a certain technique.
+  - Keep yourself hydrated and don't forget to eat.
+
+## Conclusion
+  I think this course/certification was worth the investment in both time and money. It provides a solid foundation and builds the confidence a person may be lacking if their trying to break in to cybersecurity or just preparing for a more daunting exam.
