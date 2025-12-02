@@ -1,6 +1,6 @@
 ---
 title: PNPT - My Thoughts and Experience
-date: 2025-12-02 16:00:00 +/-0000
+date: 2025-12-02 08:00:00 -0800
 categories: [Training,Certifications,Hacking,Pentesting]
 render_with_liquid: false
 tags: [tcm security,pnpt,certifications,exams,cybersec,training]     # TAG names should always be lowercase
