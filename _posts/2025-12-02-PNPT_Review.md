@@ -1,6 +1,6 @@
 ---
 title: PNPT - My Thoughts and Experience
-date: 2025-02-15 16:00:00 +/-0000
+date: 2025-12-02 16:00:00 +/-0000
 categories: [Training,Certifications,Hacking,Pentesting]
 tags: [tcm security,pnpt,certifications,exams,cybersec,training]     # TAG names should always be lowercase
 description: In Cicada we attack a Domain Controller starting with abusing SMB null authentication.
