@@ -41,7 +41,7 @@ Next I'd tackle OSINT. This course was very comprehensive and explores Open-Sour
 ## The Exam
   On to the exam. In all fairness, I had to take the exam twice. I failed the first exam because I drastically reduced my time through my own unforced errors. I couldn't seem to get a command right, and then I accidentally deleted all my notes while trying to back them up. I made the 2nd attempt almost immediately after the first attempt, and was able to pass. I feel like if you spent 4 hours a day for a month going through the courses, practicing on the labs, and studying, you would be able knock this out on the first try.
 
-**Exam Format**
+### Exam Format
   The exam gives you 7 days to find a way in and completely compromise an active directory domain. You have 5 days with the lab environment and then another 2 days to write your report. I feel like you should be able to do the report as you go along. I used sysreptor to document and create the report as I went along. I find this method makes it very easy to gather the documentation necessary for the report. It also provides a brief break from trying to figure stuff out. You can find my report templates [here](https://github.com/Chvxt3r/Util/blob/main/sysreptor_templates/design-Chvxt3r_TCM_PNPT_Report.tar.gz). Basically every time I discovered a finding, I'd document the finding in sysreptor with the associated evidence, so by the time the domain was compromised I already had all of my findings documented, and the walkthrough was mostly complete.
 
 ## The Debrief
